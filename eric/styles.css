@@ -1,0 +1,57 @@
+body {
+  font-family: Verdana, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content;
+  position: absolute;
+  column-gap: 25px;
+  padding: 5px 25px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav p {
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  color: white;
+  transition: 0.35s all ease-in-out;
+}
+
+nav p:hover {
+  cursor: pointer;
+  border-bottom: 3px solid white;
+}
+
+.banner {
+  width: 100vw;
+}
+
+.title {
+  top: 50vh;
+  left: 40vw;
+  position: absolute;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 96px;
+  color: white;
+}
+
+.title p {
+  line-height: 50px;
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 28px;
+  color: white;
+}
+
+.hashirama h2 {
+  position: absolute;
+}
