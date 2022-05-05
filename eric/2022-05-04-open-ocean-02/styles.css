@@ -52,6 +52,15 @@ p {
   transition: 0.25s all ease-in-out;
 }
 
+.border {
+  border: 2px solid black;
+}
+
+.round-corners {
+  border-radius: 4px;
+}
+
+/* copied animation stuff from https://css-tricks.com/snippets/css/shake-css-keyframe-animation/ */
 .pane:hover {
   animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
@@ -59,14 +68,6 @@ p {
   perspective: 1000px;
   filter: brightness(0.9);
   cursor: pointer;
-}
-
-.border {
-  border: 2px solid black;
-}
-
-.round-corners {
-  border-radius: 4px;
 }
 
 @keyframes shake {
